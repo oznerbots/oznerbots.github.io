@@ -4,7 +4,8 @@
 {{> ../templates/partials/security }}
 
 {{> ../templates/partials/head }}
-	<title>Welcome to the Binary Bot</title>
+	<!--<title>Welcome To Binary Bot</title>-->
+{{> ../templates/partials/extension }}
 {{> index_css }}
 <link rel="stylesheet" href="css/binary.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridle@2.0.48/css/grid-flex.css" integrity="sha256-J4p1c+K4tD3rnyfA0ztZpoQR0+mBhDTZ/J+YNOalc0k=" crossorigin="anonymous">
@@ -12,6 +13,7 @@
 
 <body>
 	{{> ../templates/partials/loading }}
+	{{> ../templates/extension/index }}
 	<div id="topbar">
     <div class="wrapper show-on-load">
 		  {{> ../templates/partials/language }}
